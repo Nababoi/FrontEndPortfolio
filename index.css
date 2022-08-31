@@ -1,0 +1,367 @@
+/* CAMBIOS GENERALES */
+.container-fluid, .row, .contenedorTrabajos,p{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+a{
+
+    text-decoration: none !important;
+}
+/* TITULO */
+.contenedorTitulo{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-image: linear-gradient(rgba(
+    55,55,55,0.7), rgba(55,55,55,0.7)) , url(https://www.fondoshd.mx/wallpapers/resoluciones/20/fondos-de-pantalla-de-oficina-gratis_1920x1080_4425.jpg) ;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0 30rem;
+    height: 50vh;
+}
+.tituloHab{
+    font-size: 3.6vw;
+}
+.presentacion{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: whitesmoke;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 54%;
+    
+}
+.red{
+    margin: 0 2vw;
+}
+.imgRed{
+    height: 5vh;
+}
+/* TECNOLOGIAS */
+.contenedorHabilidadesyTitulo{
+    background-color: black;
+    min-height: 50vh;
+
+}
+.contenedorHabilidades{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.tituloHabilidades{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vw 2vw 0 2vw;
+    color: white;
+}
+
+.tecnologia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 8rem;
+    width: 8rem;
+    margin: 2rem;
+    
+}
+.textoTecnologia{
+    color: white;
+}
+.imagenTecnologia{
+
+    height: 100%;
+    background-size: cover;
+}
+/* TRABAJOS */
+ .contenedorTrabajos{
+    background-color: #494549;
+} 
+ .TrabajosyTexto{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.4);
+} 
+.trabajo{  
+    display: flex;
+    flex-direction: column;
+    
+    background-image: url(https://quedigital.com.ar/web/wp-content/uploads/2021/02/Im%C3%A1genes-de-la-muestra-%E2%80%9CA-mi-amigo-Astor%E2%80%9D-de-Pupeto-Mastropascua-1.jpg);
+    background-attachment: fixed;
+    background-size:cover;
+}
+#borde{
+    border-top: 0.3rem white solid !important;
+    background-image: url(https://images5.alphacoders.com/427/thumb-1920-427274.jpg);
+}
+
+.contenedorImagenTrabajo{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+    padding: 1.3rem;
+}
+#contenedorImagenTrabajoBotanic{
+    background-color: rgba(0,0,0,0.4);
+}
+.shadow{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+.trabajoImg{
+    height: 60%;
+    width: 30%;
+    border-radius: 0.7rem;
+    min-width: 16rem;
+    margin: 1rem;
+}
+#imgBotanic{
+    height: 49vh;
+    width: 43vw;
+    margin: 2rem;
+}
+.contenedorTextoTrabajo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+}
+.textoTrabajo{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+    font-size: 2.4vw;
+    line-height: 3rem;
+    letter-spacing: 0.4rem;
+    width: 80%;
+}
+.LinkBotanic , .LinkPiazzolla{
+    color: white !important;
+    font-weight: 500 !important;
+    letter-spacing: 0.2rem !important;
+    font-size: 80% ;
+}
+.botonBotanic{
+    background-color: #438C1B !important;
+    margin: 2rem;
+}
+.botonPiazzolla{
+    background-color: #262926 !important;
+    margin: 2rem;
+}
+/* CONTACTO */
+.contenedorContacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("https://fondosmil.com/fondo/26795.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+.contacto{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 65%;
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    padding: 3vw 0;
+    border-radius: 1rem;
+
+}
+.anchoInput{
+    width: 70% !important;
+}
+.fondoTextArea{
+    background-color: rgba(0,0,0,0.5) !important;
+}
+
+@media screen and (min-width: 0px){
+    .presentacion{
+        font-size: 6vw;
+        letter-spacing: 0.1rem;
+        line-height: 2.1rem;
+    }
+    .red{
+        margin: 0 5vw;
+    }
+    .imgRed{
+        height: 4vh;
+    }
+    .tituloHab{
+        font-size: 7vw;
+        text-align: center;
+    }
+    .tecnologia{
+        width: 6rem;
+        height: 6rem;
+    }
+    .contenedorImagenTrabajo{
+        padding: 1rem;
+    }
+    #imgBotanic{
+        height: 24vh;
+        width: 76vw;
+        margin: 1rem;
+    }
+
+    .textoTrabajo{
+        
+        font-size: 3.3vw;
+        line-height: 2.4rem;
+        letter-spacing: 0.3rem;
+
+    }
+    .botonBotanic, .botonPiazzolla{
+        
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+
+        font-size: 0.6rem;
+        margin: 1rem;
+        height: 4vh;
+    }
+    .LinkPiazzolla, .LinkBotanic{
+        font-size: 0.6rem;
+        text-align: center;
+    }
+
+    .contacto{
+        height: 45% ;
+        width: 100%;
+    }
+    .anchoInput{
+        font-size: 7vw ;
+    }
+    .fondoTextArea{
+        font-size: 4vw;
+    }
+}
+
+@media screen and (min-width: 425px){
+    .presentacion{
+        font-size: 5.4vw;
+        line-height: 2.4rem;
+    }
+    .tituloHab{
+        font-size: 6.4vw;
+    }
+
+    .imgRed{
+        height: 5vh;
+    }
+    #imgBotanic{
+        height: 35vh;
+        width: 69vw;
+        margin: 1rem;
+    }
+    .anchoInput{
+        font-size: 4.4vw;
+    }
+}
+
+@media screen and (min-width: 578px){
+    .presentacion{
+        font-size: 4.7vw;
+        line-height: 2.9rem;
+        letter-spacing: 0.2rem;
+    }
+    .tituloHab{
+        font-size: 5.6vw;
+    }
+    .botonBotanic, .botonPiazzolla{
+        height: 6vh;
+    }
+    .LinkBotanic, .LinkPiazzolla{
+        font-size: 0.9rem;
+    }
+    .contacto{
+        height: 56%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .presentacion{
+        font-size: 2.7vw;
+    }
+    
+    .tituloHab{
+        font-size: 4.5vw;
+    }
+    .textoTrabajo{
+        font-size: 2.7vw;
+        line-height: 2.9rem;
+        letter-spacing: 0.2rem;
+    }
+    
+    #imgBotanic{
+        width: 77vw;
+        height: 53vh;
+    }
+    
+    .contacto{
+        width: 76%;
+        height: 58%;
+    }
+} 
+
+@media screen and (min-width: 992px){
+    
+    #imgBotanic{
+        width: 64vw;
+        height: 48vh;
+    }
+
+    .contacto{
+        width: 70%;
+    }
+    .anchoInput{
+        font-size: 3.4vw;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    
+    .presentacion{
+        font-size: 3vw;
+        padding: 8rem;
+    }
+    .tituloHab{
+        font-size: 3.7vw;
+    }
+    .textoTrabajo{
+        font-size: 2.2vw;
+    }
+    #imgBotanic{
+        width: 44vw;
+        height: 49vh;
+    }
+    .anchoInput{
+        font-size: 3vw;
+    }
+}
+
