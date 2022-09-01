@@ -16,7 +16,7 @@ a{
     flex-direction: column;
 
     background-image: linear-gradient(rgba(
-    55,55,55,0.7), rgba(55,55,55,0.7)) , url(https://www.fondoshd.mx/wallpapers/resoluciones/20/fondos-de-pantalla-de-oficina-gratis_1920x1080_4425.jpg) ;
+    55,55,55,0.7), rgba(55,55,55,0.7)) , url(./img/FondoOficina.jpg) ;
     background-size: cover;
     background-attachment: fixed;
     background-position: 0 30rem;
