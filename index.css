@@ -145,12 +145,15 @@ a{
     width: 100%;
     background-color: rgba(0,0,0,0.7);
 }
+.titulo{
+    width: 80%;
+}
 .textoTrabajo{
     color: white;
     text-transform: uppercase;
     text-align: center;
     font-weight: 500;
-    font-size: 2.4vw;
+    font-size: 1.8vw;
     line-height: 3rem;
     letter-spacing: 0.4rem;
     width: 80%;
@@ -184,8 +187,8 @@ a{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 50%;
-    height: 65%;
+    width: 60%;
+    height: 60%;
     background-color: rgba(0,0,0,0.7);
     color: white;
     padding: 3vw 0;
@@ -194,12 +197,13 @@ a{
 }
 .anchoInput{
     width: 70% !important;
+    font-size: 2.9vw;
 }
 .fondoTextArea{
     background-color: rgba(0,0,0,0.5) !important;
 }
 
-@media screen and (min-width: 0px){
+@media screen and (min-width: 0px) and (max-width: 424px){
     .presentacion{
         font-size: 6vw;
         letter-spacing: 0.1rem;
@@ -251,18 +255,40 @@ a{
     }
 
     .contacto{
-        height: 45% ;
+        height: 57% ;
         width: 100%;
     }
     .anchoInput{
-        font-size: 7vw ;
+        font-size: 6vw ;
     }
     .fondoTextArea{
         font-size: 4vw;
     }
 }
 
-@media screen and (min-width: 425px){
+@media screen and (min-width: 0px) and (max-width: 424px) and (orientation: landscape){
+    .presentacion{
+        font-size: 4.1vw;
+        line-height: 1.6rem;
+    }
+    .imgRed {
+        height: 6vh;
+    }
+
+    #imgBotanic {
+        height: 62vh;
+        width: 81vw;
+    }
+    .contacto{
+        height: 90%;
+    }
+    .anchoInput{
+        font-size: 4.6vw;
+    }
+
+}
+
+@media screen and (min-width: 425px) and (max-width: 577px) {
     .presentacion{
         font-size: 5.4vw;
         line-height: 2.4rem;
@@ -274,17 +300,47 @@ a{
     .imgRed{
         height: 5vh;
     }
+    .textoTrabajo{
+        font-size: 3.2vw;
+    }
     #imgBotanic{
         height: 35vh;
         width: 69vw;
         margin: 1rem;
     }
+    .contacto{
+        width: 100%;
+        height: 57%;
+    }
     .anchoInput{
-        font-size: 4.4vw;
+        font-size: 5vw;
     }
 }
 
-@media screen and (min-width: 578px){
+@media screen and (min-width: 425px) and (max-width: 577px) and (orientation: landscape){
+    .presentacion{
+        font-size: 3.8vw;
+        line-height: 2rem;
+    }
+    .imgRed {
+        height: 6vh;
+    }
+
+    #imgBotanic{
+        height: 72vh;
+        width: 65vw;
+    }
+
+    .contacto{
+        width: 80%;
+        height: 80%;
+    }
+    .anchoInput{
+        font-size: 3.6vw;
+    }
+}
+
+@media screen and (min-width: 578px) and (max-width: 767px) {
     .presentacion{
         font-size: 4.7vw;
         line-height: 2.9rem;
@@ -299,14 +355,48 @@ a{
     .LinkBotanic, .LinkPiazzolla{
         font-size: 0.9rem;
     }
+    #imgBotanic{
+        width: 70vw;
+        height: 43vh;
+    }
+    .anchoInput{
+        font-size: 4vw;
+    }
     .contacto{
         height: 56%;
+        width: 85%;
     }
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 578px) and (max-width: 767px) and (orientation: landscape){
     .presentacion{
-        font-size: 2.7vw;
+        font-size: 3.2vw;
+        line-height: 2.1rem;
+        letter-spacing: 0.1rem
+    }
+
+    #imgBotanic {
+        width: 41vw;
+        height: 52vh;
+        margin: 1rem;
+    }
+
+    .contacto{
+        width: 80%;
+        height: 80%;
+    }
+    .anchoInput{
+        font-size: 3vw;
+    }
+
+    .botonBotanic, .botonPiazzolla{
+        height:auto;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .presentacion{
+        font-size: 3.6vw;
     }
     
     .tituloHab{
@@ -327,12 +417,33 @@ a{
         width: 76%;
         height: 58%;
     }
-} 
+    .anchoInput{
+        font-size: 3vw;
+    }
+    .fondoTextArea{
+        width: 90% !important;
+    }
+}
 
-@media screen and (min-width: 992px){
+@media screen and (min-width: 768px) and  (max-width: 991px) and (orientation: landscape){
+    #imgBotanic {
+        width: 50vw;
+        height: 59vh;
+    }
+
+    .contacto{
+        width: 60%;
+        height: 90%;
+    }
+    .anchoInput{
+        font-size: 3.4vw;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
     
     #imgBotanic{
-        width: 64vw;
+        width: 39rem;
         height: 48vh;
     }
 
@@ -344,24 +455,23 @@ a{
     }
 }
 
-@media screen and (min-width: 1200px){
-    
+@media screen and (min-width: 992px) and  (max-width: 1199px) and (orientation: landscape){
     .presentacion{
-        font-size: 3vw;
-        padding: 8rem;
+        font-size: 2.1rem;
     }
-    .tituloHab{
-        font-size: 3.7vw;
+    .contacto{
+        height: 60%;
     }
-    .textoTrabajo{
-        font-size: 2.2vw;
-    }
-    #imgBotanic{
-        width: 44vw;
-        height: 49vh;
-    }
-    .anchoInput{
-        font-size: 3vw;
+    #imgBotanic {
+        width: 26rem;
+        height: 30vh;
+        margin: 1rem;
     }
 }
+
+@media screen and (min-width: 1200px) and (orientation: landscape){
+
+}
+
+
 
